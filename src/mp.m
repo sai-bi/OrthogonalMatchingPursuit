@@ -9,9 +9,7 @@ function [t] = mp(x, D, threshold, mode, max_iter)
 %	optional, maximum number of iterations
 %	default: 100
 
-if nargin < 4
-	error('Not enough arguments.\n');
-elseif nargin == 4
+if ~exist('max_iter', 'var')
 	max_iter = 100;
 end
 
