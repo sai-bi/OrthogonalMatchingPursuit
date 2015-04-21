@@ -8,6 +8,8 @@ function [t] = mp(x, D, threshold, mode, max_iter)
 % max_iter: 
 %   optional, maximum number of iterations
 %   default: 100
+% t:
+%   output, a vector that stores the coefficient of each atom
 
 if ~exist('max_iter', 'var')
     max_iter = 100;
