@@ -13,5 +13,4 @@ output_x = D * t;
 
 ### References
 [Matching Pursuit](http://en.wikipedia.org/wiki/Matching_pursuit)
-
 [MP and OMP in MATLAB](http://www.mathworks.com/help/wavelet/ug/matching-pursuit-algorithms.html)
