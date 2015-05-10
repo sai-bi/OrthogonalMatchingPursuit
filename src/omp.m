@@ -1,6 +1,6 @@
 function [t] = omp(x, D, L)
 % x: input signal
-% D: dictionary, each column is an atom
+% D: dictionary, each column is an atom. Note: atoms much be normalized.
 % threshold: stop conditions
 % L: number of non-zero entries in output
 % t:

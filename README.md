@@ -8,7 +8,7 @@ Implementations of `Orthogonal Matching Pursuit` algorithm. See `src/omp.m` for 
 dictionary = [1 0; 1/2 sqrt(3)/2; -1/sqrt(2) -1/sqrt(2)]';
 x = [1 1/2]';
 t = omp(x, dictionary, 2);
-output_x = D * t;
+output_x = D * t; 
 ```
 
 ### References

@@ -11,11 +11,6 @@ function [t] = mp(x, D, threshold, mode, max_iter)
 % t:
 %   output, a vector that stores the coefficient of each atom
 
-Demo:
-dictionary = [1 0; 1/2 sqrt(3)/2; -1/sqrt(2) -1/sqrt(2)]';
-x = [1 1/2]';
-t = omp()
-
 
 if ~exist('max_iter', 'var')
     max_iter = 100;
